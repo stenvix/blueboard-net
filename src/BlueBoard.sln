@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{C9472280-F989-4DC5-BE57-74F68DD123D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Infrastructure", "2. Infrastructure", "{A411EB4C-6747-48E8-A8DC-0C2961D632AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Services", "3. Services", "{C6A2381E-4DAD-4A50-9023-C5B8A5933307}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Identity", "1. Identity", "{09AF6232-F82B-4350-8421-D964FCCF2045}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueBoard.Persistence.Abstractions", "2. Infrastructure\BlueBoard.Persistence.Abstractions\BlueBoard.Persistence.Abstractions.csproj", "{7ED80039-1708-4F01-AFBB-16DDF529B0C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueBoard.Persistence", "2. Infrastructure\BlueBoard.Persistence\BlueBoard.Persistence.csproj", "{10217EE7-23A3-4C68-8F61-A2FEFC6F21FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueBoard.Common", "1. Core\BlueBoard.Common\BlueBoard.Common.csproj", "{3E099572-6D2B-44EB-AB61-0B0818D78AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueBoard.Persistence.Postgres", "2. Infrastructure\BlueBoard.Persistence.Postgres\BlueBoard.Persistence.Postgres.csproj", "{07CC36DB-8098-431F-B06B-2A5003E644B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46925777-F55A-423E-9925-D2895FB780CB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		BlueBoard.ruleset = BlueBoard.ruleset
+		Settings.StyleCop = Settings.StyleCop
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ED80039-1708-4F01-AFBB-16DDF529B0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED80039-1708-4F01-AFBB-16DDF529B0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED80039-1708-4F01-AFBB-16DDF529B0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED80039-1708-4F01-AFBB-16DDF529B0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10217EE7-23A3-4C68-8F61-A2FEFC6F21FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10217EE7-23A3-4C68-8F61-A2FEFC6F21FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10217EE7-23A3-4C68-8F61-A2FEFC6F21FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10217EE7-23A3-4C68-8F61-A2FEFC6F21FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E099572-6D2B-44EB-AB61-0B0818D78AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E099572-6D2B-44EB-AB61-0B0818D78AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E099572-6D2B-44EB-AB61-0B0818D78AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E099572-6D2B-44EB-AB61-0B0818D78AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CC36DB-8098-431F-B06B-2A5003E644B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CC36DB-8098-431F-B06B-2A5003E644B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CC36DB-8098-431F-B06B-2A5003E644B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CC36DB-8098-431F-B06B-2A5003E644B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09AF6232-F82B-4350-8421-D964FCCF2045} = {C6A2381E-4DAD-4A50-9023-C5B8A5933307}
+		{7ED80039-1708-4F01-AFBB-16DDF529B0C9} = {A411EB4C-6747-48E8-A8DC-0C2961D632AE}
+		{10217EE7-23A3-4C68-8F61-A2FEFC6F21FA} = {A411EB4C-6747-48E8-A8DC-0C2961D632AE}
+		{3E099572-6D2B-44EB-AB61-0B0818D78AAE} = {C9472280-F989-4DC5-BE57-74F68DD123D1}
+		{07CC36DB-8098-431F-B06B-2A5003E644B3} = {A411EB4C-6747-48E8-A8DC-0C2961D632AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A5F5DA8-6BC0-4BB9-B04C-E2D38C93E912}
+	EndGlobalSection
+EndGlobal
